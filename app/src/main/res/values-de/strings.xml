@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Activity labels -->
+    <string name="app_name">SecScanQR</string>
+    <string name="activity_generate">QR-Code Generator</string>
+    <string name="activity_history">Verlauf</string>
+    <string name="activity_history_details">Verlauf</string>
+    <string name="title_activity_geo_generator">Geo Generator</string>
+    <string name="title_activity_text_generator">Text Generator</string>
+    <string name="title_activity_barcode_generate">Barcode Generator</string>
+    <string name="title_activity_vcard_generator">VCard Generator</string>
+    <!-- MainActivity-->
+    <string name="title_format">Code Format:</string>
+    <string name="title_information">Code Information:</string>
+    <string name="default_text_main_activity">Drücken Sie auf den "Scannen" Button, um einen QR-Code/Barcode zu scannen</string>
+    <string name="send_to">Teilen mit:</string>
+    <string name="xzing_label">Taschenlampe über die Lautstärketasten aktivieren</string>
+    <string name="notice_clipoard">In Zwischenablage kopiert</string>
+    <!--MainActivity Errors-->
+    <string name="error_scan_first">Scanne zuerst einen QR-Code</string>
+    <string name="error_canceled_scan">Scanvorgang abgebrochen</string>
+    <string name="error_add_to_database">Konnte QR-Code nicht zum Verlauf hinzufügen</string>
+    <!-- MainActivity Navigation-->
+    <string name="title_scan">Scannen</string>
+    <string name="title_generate">Generieren</string>
+    <string name="title_history">Verlauf</string>
+    <!-- MainActivity Action Navigation-->
+    <string name="title_copy">Kopieren</string>
+    <string name="title_share">Teilen</string>
+    <string name="title_deleete">Zurücksetzen</string>
+    <string name="title_openInWeb">Öffnen im Web</string>
+
+    <!-- GenerateActivity-->
+    <string name="btn_save">Speichern</string>
+    <string name="toast_save">Im "SecScanQR" Ordner gespeichert</string>
+    <string name="toast_permission_needed">Berechtigung wird zum Fortfahren benötigt</string>
+    <string name="toast_erorr">Es ist ein Fehler aufgetreten</string>
+
+    <!-- TextGeneratorActivity-->
+    <string name="hint_text2qr">Hier soll Text hinein</string>
+    <!-- TextGeneratorActivity Erorrs-->
+    <string name="error_text_first">Geben Sie erst einen Text in das Textfeld ein</string>
+    <string name="error_generate">Keine gültige Eingabe für dieses Format</string>
+
+    <!-- GeoGeneratorActivity-->
+    <string name="hint_latitude">Breite Beispiel: 43.73</string>
+    <string name="hint_longtitude">Länge Beispiel: -10.73</string>
+    <string name="cbLatitude">Nord</string>
+    <string name="cbLongtitude">Ost</string>
+
+    <!-- GeoGeneratorActivity Errors-->
+    <string name="error_geo_first">Füllen Sie zuerst beide Felder aus</string>
+
+    <!-- VCARDGeneratorActivity-->
+    <string name="hint_name">Nachname</string>
+    <string name="hint_fn">Vorname</string>
+    <string name="hint_org">Firma</string>
+    <string name="hint_web">Website</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_mobil">Mobil</string>
+    <string name="hint_tele_work">Telefon(Arbeit)</string>
+    <string name="hint_tele_private">Telefon(Privat)</string>
+    <string name="hint_street">Straße</string>
+    <string name="hint_plz">PLZ</string>
+    <string name="hint_city">Stadt</string>
+    <string name="hint_state">Bundesland</string>
+    <string name="hint_country">Land</string>
+
+    <!-- VCARDGeneratorActivity Errors-->
+    <string name="error_fn_or_name_first">Gebe zuerst einen Nachnamen oder Vornamen an</string>
+
+    <!-- HistoryActivity -->
+    <string name="reset_database">Zurücksetzen</string>
+
+    <!-- HistoryActivity Errors-->
+    <string name="error_not_in_database">Wurde nicht gefunden</string>
+    <string name="error_sqlexception">Dieses Format wird für die Verlaufsfunktion nicht unterstützt</string>
+
+    <!-- HistoryDetailsActivity-->
+    <string name="notice_deleted_from_database">Aus dem Verlauf gelöscht</string>
+    <!-- HistoryDetailsActivity Action Navigation-->
+    <string name="title_delete">Löschen</string>
+
+    <!-- Optionsmenu-->
+    <string name="settings_menu_about">Über</string>
+    <string name="settings_settings">Einstellungen</string>
+
+    <!-- AboutDialog-->
+    <string name="about_dialog">Über</string>
+    <string name="copyright">Copyright Notice</string>
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Einstellungen</string>
+    <!-- Scanner settings -->
+    <string name="pref_header_scanner">Scanner</string>
+    <string name="pref_header_history_settings">Verlauf</string>
+    <string name="pref_header_search_engine_settings">Suchmaschine</string>
+
+    <string name="pref_title_camera">Kamera</string>
+    <string-array name="pref_camera_entries">
+        <item>Kamera auf der Rückseite</item>
+        <item>Kamera auf der Vorderseite</item>
+    </string-array>
+    <string name="pref_title_auto_scan">Autostart Scanner</string>
+    <string-array name="pref_auto_scan_entries">
+        <item>An</item>
+        <item>Aus</item>
+    </string-array>
+
+    <string name="pref_title_auto_clipboard">Smarte Zwischenablage</string>
+    <string-array name="pref_auto_clipboard_entries">
+        <item>An</item>
+        <item>Aus</item>
+    </string-array>
+
+    <string name="pref_title_day_night_mode">Tag/Nacht Modus (ALPHA Version)</string>
+    <string-array name="pref_day_night_mode_entries">
+        <item>Tag (Benötigt Neustart)</item>
+        <item>Nacht (Benötigt Neustart)</item>
+    </string-array>
+
+    <string name="pref_title_history">Verlauf (an/aus)</string>
+    <string-array name="pref_history_entries">
+        <item>An</item>
+        <item>Aus</item>
+    </string-array>
+
+    <string name="pref_title_search_engine">Suchmaschine</string>
+    <string-array name="pref_search_engine_entries">
+        <item>Bing</item>
+        <item>DuckDuckGo</item>
+        <item>Google</item>
+        <item>Qwant</item>
+        <item>Qwant Lite</item>
+        <item>Yahoo</item>
+        <item>Yandex (RUS)</item>
+    </string-array>
+
+    <string name="pref_title_barcode_search_enigne">Barcode Suchmaschine</string>
+    <string-array name="pref_barcode_search_engine_entries">
+        <item>Keine extra Suchmaschine für Barcodes</item>
+        <item>Open Food Facts</item>
+        <item>CodeCheck</item>
+    </string-array>
+
+</resources>
